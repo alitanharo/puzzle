@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(4, 2, 26);
+    text-align: center;
+    margin: 0;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+
+
+#menuBar {
+position:absolute;
+top:0;
+}
+
+ body{
+    color: aliceblue;
+    
+    
+    text-align: center;
+    background-color: rgb(4, 2, 26);
+	 margin:0;
+	 overflow:hidden;
+	 overscroll-behavior:none;
+	 font-family:Arial;
+ }
+ 
+ #menuBar{
+	 width:79vmin;
+     height: 90vmin;
+	 position:absolute;
+	 top:50%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+	 background:rgba(32, 1, 1, 0.6);
+	 text-align:center;
+	 padding:5vmin;
+	 border:1vmin rgba(0,0,0,0.6) solid;
+	 font-size:5vmin;
+ }
+ 
+ button{
+	 font-size:6vmin;
+	 background:rgb(29, 32, 63);
+	 color:white;
+	 cursor:pointer;
+	 transition:0.3s;
+	 border:none;
+	 border-radius:1vmin;
+	 margin-top: 20%;
+ }
+ button:hover{
+	 background:rgb(25, 116, 13);
+	 color:black;
+ }
+ 
+ select{
+	 font-size:4vmin;
+	 cursor:pointer;
+	 border:none;
+	 border-radius:1vmin;
+	 outline:none;
+ }
+ 
+ #time{
+	 position:absolute;
+	 top:2%;
+	 left:50%;
+	 transform:translate(-50%);
+ }
+ #turns{
+	 position:absolute;
+	 top:7%;
+	 left:50%;
+	 transform:translate(-50%);
+     
+    
+ }
+
+ 
+ 
+ 
+ #slider{
+
+margin-top: 20px;
+	font-size: 4vmin;
+	
+ }
+ 
+ 
+
+
+ a:link, a:visited {
+  background-color: #0b1d83;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20%;
+}
+
+a:hover, a:active {
+  background-color: rgb(22, 196, 22);
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 

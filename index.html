@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="asset/index.css">
+   
+</head>
+<body onload="main()">
+    <section>
+  <canvas id="canvas"></canvas>
+    </section>
+  
+   <section>
+ <div id="menuBar">
+        <div id="menu">
+            <div id="contorols">
+                <img src="/asset/images/logo.jpg", style="width: 40% ;  border:3px solid ; padding:2px"  alt="">
+                <br>
+                <br>
+               Level <select name="Difficulty" id="difficulty" onchange="setDifficulty()">
+                    <option value="easy">Easy</option>
+                    <option value="medium"> Medium</option>
+                     <option value="hard"> Hard</option>
+                </select>
+                <br>
+                <br>
+<button onclick="restart()">Start</button>
+
+            </div>
+          <div id="slider"> <a href="/slider.html">Change Photo!</a></div>
+        </div>
+    </div>
+    
+     <div id="time"></div>
+     <br>
+     <br>
+     
+   </section>
+    <div id ="turns"> </div>
+     <script src="app.js"></script>
+</body>
+</html>
